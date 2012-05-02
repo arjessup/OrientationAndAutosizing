@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B97DB6152251D0004C43EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B97DB5152251D0004C43EE /* UIKit.framework */; };
+		80B97DB8152251D0004C43EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B97DB7152251D0004C43EE /* Foundation.framework */; };
+		80B97DBA152251D0004C43EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B97DB9152251D0004C43EE /* CoreGraphics.framework */; };
+		80B97DC0152251D0004C43EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80B97DBE152251D0004C43EE /* InfoPlist.strings */; };
+		80B97DC2152251D0004C43EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B97DC1152251D0004C43EE /* main.m */; };
+		80B97DC6152251D0004C43EE /* ARJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B97DC5152251D0004C43EE /* ARJAppDelegate.m */; };
+		80B97DC9152251D0004C43EE /* ARJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B97DC8152251D0004C43EE /* ARJViewController.m */; };
+		80B97DCC152251D0004C43EE /* ARJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B97DCA152251D0004C43EE /* ARJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80B97DB1152251D0004C43EE /* OrientationAndAutosizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientationAndAutosizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B97DB5152251D0004C43EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80B97DB7152251D0004C43EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80B97DB9152251D0004C43EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80B97DBD152251D0004C43EE /* OrientationAndAutosizing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrientationAndAutosizing-Info.plist"; sourceTree = "<group>"; };
+		80B97DBF152251D0004C43EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80B97DC1152251D0004C43EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80B97DC3152251D0004C43EE /* OrientationAndAutosizing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrientationAndAutosizing-Prefix.pch"; sourceTree = "<group>"; };
+		80B97DC4152251D0004C43EE /* ARJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJAppDelegate.h; sourceTree = "<group>"; };
+		80B97DC5152251D0004C43EE /* ARJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJAppDelegate.m; sourceTree = "<group>"; };
+		80B97DC7152251D0004C43EE /* ARJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJViewController.h; sourceTree = "<group>"; };
+		80B97DC8152251D0004C43EE /* ARJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJViewController.m; sourceTree = "<group>"; };
+		80B97DCB152251D0004C43EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B97DAE152251D0004C43EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B97DB6152251D0004C43EE /* UIKit.framework in Frameworks */,
+				80B97DB8152251D0004C43EE /* Foundation.framework in Frameworks */,
+				80B97DBA152251D0004C43EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B97DA6152251CF004C43EE = {
+			isa = PBXGroup;
+			children = (
+				80B97DBB152251D0004C43EE /* OrientationAndAutosizing */,
+				80B97DB4152251D0004C43EE /* Frameworks */,
+				80B97DB2152251D0004C43EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B97DB2152251D0004C43EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B97DB1152251D0004C43EE /* OrientationAndAutosizing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B97DB4152251D0004C43EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B97DB5152251D0004C43EE /* UIKit.framework */,
+				80B97DB7152251D0004C43EE /* Foundation.framework */,
+				80B97DB9152251D0004C43EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B97DBB152251D0004C43EE /* OrientationAndAutosizing */ = {
+			isa = PBXGroup;
+			children = (
+				80B97DC4152251D0004C43EE /* ARJAppDelegate.h */,
+				80B97DC5152251D0004C43EE /* ARJAppDelegate.m */,
+				80B97DC7152251D0004C43EE /* ARJViewController.h */,
+				80B97DC8152251D0004C43EE /* ARJViewController.m */,
+				80B97DCA152251D0004C43EE /* ARJViewController.xib */,
+				80B97DBC152251D0004C43EE /* Supporting Files */,
+			);
+			path = OrientationAndAutosizing;
+			sourceTree = "<group>";
+		};
+		80B97DBC152251D0004C43EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B97DBD152251D0004C43EE /* OrientationAndAutosizing-Info.plist */,
+				80B97DBE152251D0004C43EE /* InfoPlist.strings */,
+				80B97DC1152251D0004C43EE /* main.m */,
+				80B97DC3152251D0004C43EE /* OrientationAndAutosizing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B97DB0152251D0004C43EE /* OrientationAndAutosizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B97DCF152251D0004C43EE /* Build configuration list for PBXNativeTarget "OrientationAndAutosizing" */;
+			buildPhases = (
+				80B97DAD152251D0004C43EE /* Sources */,
+				80B97DAE152251D0004C43EE /* Frameworks */,
+				80B97DAF152251D0004C43EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrientationAndAutosizing;
+			productName = OrientationAndAutosizing;
+			productReference = 80B97DB1152251D0004C43EE /* OrientationAndAutosizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B97DA8152251CF004C43EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ARJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 80B97DAB152251CF004C43EE /* Build configuration list for PBXProject "OrientationAndAutosizing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80B97DA6152251CF004C43EE;
+			productRefGroup = 80B97DB2152251D0004C43EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B97DB0152251D0004C43EE /* OrientationAndAutosizing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B97DAF152251D0004C43EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B97DC0152251D0004C43EE /* InfoPlist.strings in Resources */,
+				80B97DCC152251D0004C43EE /* ARJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B97DAD152251D0004C43EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B97DC2152251D0004C43EE /* main.m in Sources */,
+				80B97DC6152251D0004C43EE /* ARJAppDelegate.m in Sources */,
+				80B97DC9152251D0004C43EE /* ARJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80B97DBE152251D0004C43EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B97DBF152251D0004C43EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80B97DCA152251D0004C43EE /* ARJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B97DCB152251D0004C43EE /* en */,
+			);
+			name = ARJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B97DCD152251D0004C43EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80B97DCE152251D0004C43EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B97DD0152251D0004C43EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrientationAndAutosizing/OrientationAndAutosizing-Prefix.pch";
+				INFOPLIST_FILE = "OrientationAndAutosizing/OrientationAndAutosizing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80B97DD1152251D0004C43EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrientationAndAutosizing/OrientationAndAutosizing-Prefix.pch";
+				INFOPLIST_FILE = "OrientationAndAutosizing/OrientationAndAutosizing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B97DAB152251CF004C43EE /* Build configuration list for PBXProject "OrientationAndAutosizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B97DCD152251D0004C43EE /* Debug */,
+				80B97DCE152251D0004C43EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B97DCF152251D0004C43EE /* Build configuration list for PBXNativeTarget "OrientationAndAutosizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B97DD0152251D0004C43EE /* Debug */,
+				80B97DD1152251D0004C43EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B97DA8152251CF004C43EE /* Project object */;
+}
